@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero{
+    padding: 20px 10rem;
+    background-color: rgb(247, 247, 247);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    /* margin: 20px 10rem; */
+}
+.logo{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+nav .nav-texts{
+    justify-content: flex-start;
+    display: flex;
+}
+nav .nav-texts ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    padding-left: 30px;
+}
+nav .nav-texts ul li{
+    margin: 0 15px;
+    text-decoration: none;
+    display: flex;
+    transition: all 0.3s ease 0s;
+}
+nav .nav-texts ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+nav .nav-texts ul li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #f1ea9b;
+    padding: 5px 10px;
+}
+nav .nav-texts ul li:hover{
+    margin: 0px 5px;
+}
+nav .button{
+    /* margin: 20px 10rem; */
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    transition: all 0.3s ease 0s;
+}
+nav .button:hover{
+    background-color: rgb(75, 75, 75);
+}
+.hero .hero-context .hero-text{
+    align-items: flex-start;
+    /* height: 50vh; */
+    padding-bottom: 100px;
+}
+.hero .hero-context{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    /* margin: 20px 10rem; */
+}
+.hero .hero-context .hero-h1 .turn-your-ideas{
+    display: flex;
+}
+.hero .hero-context .hero-h1 .turn-your-ideas .your-ideas{
+    background-color: #f1ea9b;
+    margin-left: 20px;
+}
+.hero h1{
+    font-family: "Brygada";
+    font-size: 5rem;
+    font-weight: bold;
+}
+/* .hero .hero-context img{
+    height: 700px;
+    width: auto;
+} */
+.hero .hero-context .hero-text .hero-pic{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.hero .hero-context .hero-text .hero-pic img{
+    height: 100px;
+    width: auto;
+}
+.hero .hero-context .hero-text .hero-pic .hero-pic-text{
+    padding-left: 10px;
+}
+.why-us .why-us-container .why-us-flex-title h1, .why-us .why-us-container .why-us-title-under h1{
+    font-family: "Brygada";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.why-us .why-us-container .why-us-flex-title{
+    display: flex;
+    justify-content: center;
+}
+.why-us .why-us-container .why-us-flex-title .colored-background{
+    background-color: #f1ea9b;
+    margin-right: 10px;
+}
+.why-us .why-us-container .why-us-title-under{
+    justify-content: center;
+    display: flex;
+}
+.why-us{
+    align-items: center;
+    justify-content: center;
+}
+.why-us .why-us-container{
+    height: 100vh;
+    margin: 0px 10rem;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.why-us .why-us-container .post{
+    display: flex;
+    padding-top: 50px;
+}
+.why-us .why-us-container .post .post1 .context1 img{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    /* padding-left: 50px; */
+}
+.why-us .why-us-container .post .post1{
+    justify-content: center;
+    padding: 0px 30px;
+}
+.why-us .why-us-container .post .post1 .context1{
+    justify-content: center;
+    /* padding: 0px 20px; */
+}
+.why-us .why-us-container .post .post1 .context1 p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+    /* font-size: 20px; */
+}
+.why-us .why-us-container .post .post1 .context1 img{
+    justify-content: center;
+    display: flex;
+    padding-left: 40px;
+}
+.why-us .why-us-container .post .post1 .context1 .post1-text{
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.video-page{
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+    padding: 50px 10rem;
+}
+.video-page h1{
+    font-family: "Brygada";
+    color: white;
+    font-size: 3rem;
+    /* letter-spacing: 2px; */
+    font-weight:500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.video-page .cta{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.video-page .btn{
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    background-color: #f1ea9b;
+    padding: 10px 40px;
+    transition: all 0.3s ease 0s;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+}
+.video-page button:hover{
+    background-color: #d6ce79;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.statement{
+    height: 120vh;
+    padding: 0 10rem;
+    padding-top: 20rem;
+    padding-bottom: 50px;
+    background-color: rgb(247, 247, 247);
+}
+.statement .context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statement .context .text{
+    display: flex;
+    flex-direction: column;
+}
+.statement .context .text .statement-h1 h1{
+    font-family: "Brygada";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.statement .context .text .statement-h1 .turn-your-ideas{
+    display: flex;
+}
+.statement .context .text .statement-h1 .turn-your-ideas .your-ideas{
+    margin-left: 10px;
+    background-color: #f1ea9b;
+}
+.statement .context .text p{
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+}
+.ttd{
+    width: 150px;
+    height: auto;
+    padding-top: 50px;
+}
+.social-media{
+    height: 100vh;
+    padding: 50px 10rem;
+    background-color: rgb(247, 247, 247);
+}
+.social-media .title h1{
+    font-family: "Brygada";
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media .title .title-background{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.social-media .title .title-background .background{
+    margin-right: 10px;
+    background-color: #f1ea9b;
+}
+.social-media .content-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media .content-wrapper .content-img img{
+    width: 350px;
+    height: auto;
+    padding-top: 30px;
+}
+.social-media .content-wrapper .content-img{
+    display: flex;
+    flex-direction: column;
+}
+.social-media .content-wrapper .content-img .img-text{
+    font-weight: bold;
+    font-size: 28px;
+    width: 350px;
+    padding: 10px 0;
+}
+.footer{
+    padding: 100px 0;
+    height: 100vh;
+}
+.footer .content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .content .title{
+    padding-right: 20px;
+}
+.footer .content .title p{
+    margin-top: 20px;
+}
+.footer .content .bar ul, .footer .content .social--media ul{
+    text-decoration: none;
+    list-style: none;
+}
+.footer .content .bar ul li,  .footer .content .social--media ul li{
+    margin-bottom: 40px;
+}
+.footer .content .bar ul li a, .footer .content .social--media ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+.footer .content .bar ul li a:hover, .footer .content .social--media ul li a:hover{
+    color: rgb(107, 107, 107);
+}
+.footer .content .bar ul li, .footer .content .social--media ul li, .footer .content .title, .footer .content .contact{
+    padding: 0 100px;
+}
+.footer .content .contact h5{
+    margin-bottom: 20px;
+}
+.footer .image{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .image .social-media-img{
+    width: 600px;
+    height: auto;
+}
+.footer .image .send-email{
+    width: 800px;
+    height: auto;
+}
